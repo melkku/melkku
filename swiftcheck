@@ -1,0 +1,6 @@
+# This script checks the staking status of swiftcash
+
+swiftcash-cli getinfo
+swiftcash-cli getstakingstatus
+echo
+
