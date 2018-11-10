@@ -1,0 +1,17 @@
+# This script unlocks the SwiftCash wallet for staking
+
+read -s -p "SwiftCash Wallet Password: " password
+echo
+
+# Attempting to unlock SwitftCash wallet
+echo Unlock SwiftCash wallet \(9,999,999,999 seconds\)
+
+# Run Command
+swiftcash-cli walletpassphrase $password 9999999999 true
+
+# End of Script
+swiftcash-cli getwalletinfo
+echo End of SwiftCash wallet unlock
+echo Please run getstakingstatus in a few minutes to check
+echo 
+
