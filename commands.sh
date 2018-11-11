@@ -6,7 +6,8 @@ clear
 echo ~~~~ Welcome to easy select ~~~
 echo 1. Check staking status
 echo 2. Unlock wallet
-echo 3. List useful commands
+echo 3. Check masternode status
+echo 4. List useful commands
 echo
 
 # Checking Selection
@@ -18,6 +19,9 @@ elif [ "$selection" == "2" ]; then
    clear
    ~/GIT/UNLOCK/unlockSelection.sh
 elif [ "$selection" == "3" ]; then
+   clear
+   ~/GIT/MASTERNODE/masternodeSelection.sh
+elif [ "$selection" == "4" ]; then
    clear
    ~/GIT/OTHER/usefulcommands.sh
 else

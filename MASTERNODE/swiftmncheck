@@ -1,0 +1,4 @@
+# This script checks the masternode status of swiftcash
+
+swiftcash-cli getswiftnodestatus
+

@@ -2,5 +2,3 @@
 
 swiftcash-cli getinfo
 swiftcash-cli getstakingstatus
-echo
-
